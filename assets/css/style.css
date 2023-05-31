@@ -1,0 +1,64 @@
+@import "./global.css";
+
+body {
+    background-color: #eee;
+}
+
+header {
+    background: #fff;
+    height: 90px;
+    border-bottom: 1px solid #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.header-section {
+    transition: all 0.5s;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 104px;
+}
+
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+}
+
+.logo-span {
+    color: #ce1212;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #7f7f90;
+    white-space: nowrap;
+    transition: 0.3s;
+    position: relative;
+    white-space: nowrap;
+    padding: 10px 0 10px 28px;
+}
+
+.book-a-table-button {
+font-size: 14px;
+    color: #fff;
+    background: #ce1212;
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
